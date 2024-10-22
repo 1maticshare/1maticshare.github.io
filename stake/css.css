@@ -358,7 +358,7 @@ html.w-mod-touch * {
     color: #fff;
     line-height: inherit;
     cursor: pointer;
-    background-color: #3898ec;
+    background-color: #3698ec;
     border: 0;
     border-radius: 0;
     padding: 9px 15px;
@@ -626,23 +626,23 @@ label {
 
 .w-input:-moz-placeholder,
 .w-select:-moz-placeholder {
-    color: #999;
+    color: #888;
 }
 
 .w-input::-moz-placeholder,
 .w-select::-moz-placeholder {
-    color: #999;
+    color: #888;
     opacity: 1;
 }
 
 .w-input::-webkit-input-placeholder,
 .w-select::-webkit-input-placeholder {
-    color: #999;
+    color: #888;
 }
 
 .w-input:focus,
 .w-select:focus {
-    border-color: #3898ec;
+    border-color: #3698ec;
     outline: 0;
 }
 
@@ -670,7 +670,7 @@ textarea.w-select {
 }
 
 .w-select {
-    background-color: #f3f3f3;
+    background-color: #f2f2f2;
 }
 
 .w-select[multiple] {
@@ -742,8 +742,8 @@ textarea.w-select {
 
 .w-file-upload-uploading-btn {
     cursor: pointer;
-    background-color: #fafafa;
-    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+    border: 1px solid #bbb;
     margin: 0;
     padding: 8px 12px;
     font-size: 14px;
@@ -752,8 +752,8 @@ textarea.w-select {
 }
 
 .w-file-upload-file {
-    background-color: #fafafa;
-    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+    border: 1px solid #bbb;
     flex-grow: 1;
     justify-content: space-between;
     margin: 0;
@@ -796,8 +796,8 @@ textarea.w-select {
 
 .w-file-upload-label {
     cursor: pointer;
-    background-color: #fafafa;
-    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+    border: 1px solid #bbb;
     margin: 0;
     padding: 8px 12px;
     font-size: 14px;
@@ -1168,7 +1168,7 @@ textarea.w-select {
     height: 20px;
     text-align: center;
     background: #fff;
-    border: 1px solid #758696;
+    border: 1px solid #725696;
     border-radius: 3px;
     display: inline-block;
     position: relative;
@@ -1186,7 +1186,7 @@ textarea.w-select {
     height: 50px;
     border: none;
     border-radius: 50%;
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(34, 34, 34);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5) inset;
     display: inline-block;
     align-items: center;
@@ -1206,7 +1206,7 @@ textarea.w-select {
   .button11::before {
     width: 35px;
     height: 22px;
-    background: linear-gradient(to bottom,rgba(255, 255, 255, 0.575), rgba(0, 0, 0, 0.103));
+    background: linear-gradient(to bottom,rgba(258, 258, 258, 0.575), rgba(0, 0, 0, 0.103));
     position: absolute;
     left: 7.2px;
     content: "";
@@ -1230,7 +1230,7 @@ textarea.w-select {
 
 .w-widget-twitter-count-shim .w-widget-twitter-count-inner {
     text-align: center;
-    color: #999;
+    color: #888;
     font-family: serif;
     font-size: 15px;
     line-height: 12px;
@@ -1275,7 +1275,7 @@ textarea.w-select {
 
 .w-widget-twitter-count-shim:not(.w--vertical):before {
     border-width: 4px;
-    border-color: rgba(117, 134, 150, 0) #5d6c7b rgba(117, 134, 150, 0) rgba(117, 134, 150, 0);
+    border-color: rgba(117, 134, 150, 0) #5d6c7b rgba(119, 134, 155, 0) rgba(119, 134, 155, 0);
     margin-top: -4px;
     margin-left: -9px;
 }
@@ -2691,10 +2691,10 @@ textarea.w-select {
 }
 
 .calculator-btn {
-    color: #11181b;
+    color: #12281b;
     letter-spacing: .5px;
     text-transform: uppercase;
-    background-color: #32ebda;
+    background-color: #62ebda;
     border-radius: 30px;
     padding: 14px 50px;
     font-family: Montserrat, sans-serif;
@@ -2719,13 +2719,13 @@ textarea.w-select {
 }
 
 .information-text {
-    color: #a311c7;
+    color: #a851c7;
     letter-spacing: .5px;
     font-family: Montserrat, sans-serif;
 }
 
 .table-awards {
-    background-image: linear-gradient(243deg,#232220,#0000);
+    background-image: linear-gradient(243deg,#255220,#0000);
     border-radius: 30px;
     align-items: stretch;
     padding: 30px 35px 25px;
@@ -2900,14 +2900,14 @@ textarea.w-select {
 }
 
 .table-ref {
-    background-image: linear-gradient(318deg,#1f1f1d, #0000);
+    background-image: linear-gradient(318deg,#1f3f3d, #0000);
     border-radius: 30px;
     align-items: stretch;
     padding: 30px 35px 25px;
 }
 
 .ref-heading {
-    color: #d5a00c;
+    color: #d5a11c;
     letter-spacing: .5px;
     text-transform: uppercase;
     margin-top: 0;
@@ -2930,7 +2930,7 @@ textarea.w-select {
 }
 
 .fef-link-head {
-    color: #a311c7;
+    color: #a355c7;
     letter-spacing: .5px;
     margin-bottom: 15px;
     font-family: Montserrat, sans-serif;
@@ -2954,7 +2954,7 @@ textarea.w-select {
 .ref-button {
     color: #ffffff;
     letter-spacing: .5px;
-    background-color: #064d7c;
+    background-color: #094d7c;
     border-radius: 30px;
     padding: 15px 50px;
     font-family: Montserrat, sans-serif;
@@ -3012,7 +3012,7 @@ textarea.w-select {
 }
 
 .ref-level-text {
-    color: #48d5af;
+    color: #48c5af;
     letter-spacing: .5px;
     margin-bottom: 15px;
     font-family: Montserrat, sans-serif;
@@ -3022,7 +3022,7 @@ textarea.w-select {
 }
 
 .ref-level-value {
-    color: #a707cf;
+    color: #a505cf;
     letter-spacing: .5px;
     font-family: Montserrat, sans-serif;
     font-size: 16px;
@@ -3055,7 +3055,7 @@ textarea.w-select {
 
 .work-table-content-wr {
     max-width: 540px;
-    background-image: linear-gradient(35deg, #f70, #ffd900);
+    background-image: linear-gradient(35deg, #f70, #ffa900);
     border-radius: 30px;
     justify-content: center;
     align-items: center;
@@ -3159,7 +3159,7 @@ textarea.w-select {
     letter-spacing: .5px;
     text-transform: uppercase;
     background-color: rgba(0, 0, 0, 0);
-    border-bottom: 2px solid #ffbf00;
+    border-bottom: 2px solid #ffbf11;
     font-family: Montserrat, sans-serif;
     transition: all .3s cubic-bezier(.25, .1, .368, 2.083);
 }
@@ -3175,7 +3175,7 @@ textarea.w-select {
 
 .tab-link-tab-2.w--current {
     background-color: rgba(0, 0, 0, 0);
-    border-bottom: 2px solid #ffbf00;
+    border-bottom: 2px solid #ffbf11;
 }
 
 .tab-link-tab-3 {
@@ -3188,7 +3188,7 @@ textarea.w-select {
 
 .tab-link-tab-3.w--current {
     background-color: rgba(0, 0, 0, 0);
-    border-bottom: 2px solid #ffbf00;
+    border-bottom: 2px solid #ffbf11;
 }
 
 .faq-tab-text {
@@ -3228,7 +3228,7 @@ textarea.w-select {
     height: 25px;
     color: #fff;
     background-color: rgba(255, 191, 0, .66);
-    border: 2px solid #ffd900;
+    border: 2px solid #ffd911;
     border-radius: 30px;
     justify-content: center;
     align-items: center;
@@ -3458,7 +3458,7 @@ textarea.w-select {
 }
 
 .modal-wrapper {
-    z-index: 999;
+    z-index: 888;
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     background-color: rgba(0, 0, 0, .4);
