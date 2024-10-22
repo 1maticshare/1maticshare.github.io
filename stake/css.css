@@ -3452,7 +3452,7 @@ textarea.w-select {
 
 .gradient-color-span {
     -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(104deg, #f4c631, #FFC700);
+    background-image: linear-gradient(104deg, #f4c631, #FFC900);
     -webkit-background-clip: text;
     background-clip: text;
 }
@@ -3522,7 +3522,7 @@ textarea.w-select {
 
 .gradient-span {
     -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(104deg, #b0f, #ffbf00);
+    background-image: linear-gradient(104deg, #b0f, #ffbf11);
     -webkit-background-clip: text;
     background-clip: text;
 }
@@ -3720,7 +3720,7 @@ textarea.w-select {
     }
 
     .nav-link:hover {
-        background-color: #1d1d1d;
+        background-color: #2d2d2d;
     }
 
     .nav-link.change-radius {
@@ -3884,7 +3884,7 @@ textarea.w-select {
     .button-mobile {
         color: #000;
         letter-spacing: .5px;
-        background-color: #135a78;
+        background-color: #135c78;
         border-radius: 30px;
         margin-bottom: 30px;
         padding-left: 36px;
