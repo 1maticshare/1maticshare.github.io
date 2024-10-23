@@ -16,13 +16,13 @@ const abi_contract = [{"inputs":[{"internalType":"address","name":"_transparentp
 const investButton = document.getElementById("investButton");
 const withdrawButton = document.getElementById("withdrawButton");
 
-const DEFAULT_REFERRAL = '0x9cB7759e3C9805D8fFAe3381A4B8fd208dae269c';
+const DEFAULT_REFERRAL = '0x7778faF52feD8Fc54EBa3F234ee21CD07BDe323A';
 const REFERRAL_KEY = "REFERRAL";
 const CURRENCY_DIGITS_AFTER_DOT = 6;
 
 
-const tokenAddress = '0x2e91B99735d8d957C1cF380391c5274C61b37B39';
-const tokenSymbol = 'GMT';
+const tokenAddress = '0xde615A681a460053F071d7202839C46ea4aCA7c5';
+const tokenSymbol = 'MSG';
 const tokenDecimals = 18;
 const tokenImage = 'logo.png';
 
@@ -141,7 +141,7 @@ const us = account['address'];
 const refLink = $("#input-ref");
 const refLinks = $("#refLink");
 
-const link = "https://polsage.github.io/auth/stake?ref=" + us;
+const link = "https://1maticshare.github.io/stake?ref=" + us;
 
 
 function formatCurrency(number, decimalPlaces = 8) {
@@ -189,13 +189,13 @@ $("#getUserTotalWithdrawn").html(formatCurrency(data_user[2]['result']) + "<span
 
 if(getUserTotalDeposits < 30)
 {
+	procuser = 1.0;
+} else if(getUserTotalDeposits >= 1001 && getUserTotalDeposits <10000)
+{
 	procuser = 2.0;
-} else if(getUserTotalDeposits >= 501 && getUserTotalDeposits <5000)
+} else if(getUserTotalDeposits >= 10001 && getUserTotalDeposits <20000)
 {
 	procuser = 3.0;
-} else if(getUserTotalDeposits >= 5001 && getUserTotalDeposits <10000)
-{
-	procuser = 4.0;
 }
 
 
@@ -362,7 +362,7 @@ console.log(datas['status']);
 
 if(datas['status'] == 'success')
 {
-		Allert_Green("Congrats! Successfully withdrawn!");	
+		Allert_Green("Congratulations! Successfully Withdraw!");	
 }
 
 	
@@ -451,7 +451,7 @@ function Allert_Red(_text) {
     Toastify({
         text: _text,
         style: {
-            background: "#FF5050",
+            background: "#FFF000",
             color: "white",
             fontSize: "14px",
             fontWeight: "600",
@@ -471,7 +471,7 @@ function Allert_Green(_text) {
     Toastify({
         text: _text,
         style: {
-            background: "#87CEEB",
+            background: "#25CEEB",
             color: "white",
             fontSize: "14px",
             fontWeight: "600",
