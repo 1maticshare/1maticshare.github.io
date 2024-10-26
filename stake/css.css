@@ -2341,7 +2341,7 @@ textarea.w-select {
 .main-block {
     height: 28vh;
     background-color: #000;
-    background-image: url('Pic/b2.jpg');
+    background-image: url('Pic/hero.gif');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: auto;
@@ -3553,7 +3553,7 @@ textarea.w-select {
     border-bottom: 1px #000;
     padding-top: 235px;
     font-size: 16px;
-    background-image: url('Pic/b2.jpg');
+    background-image: url('Pic/hero.gif');
 }
 
 @media screen and (min-width: 1920px) {
@@ -3700,7 +3700,7 @@ textarea.w-select {
         background-position: center center;
         background-size: auto;
         padding-top: 180px;
-        background-image: url('Pic/b2.jpg');
+        background-image: url('Pic/hero.gif');
         padding-bottom: 3px;
         border-radius: 41px;
     }
@@ -4114,7 +4114,7 @@ textarea.w-select {
 @media screen and (max-width: 479px) {
     .main-block {
         padding-top: 120px;
-        background-image: url('Pic/b2.jpg');
+        background-image: url('Pic/hero.gif');
         padding-bottom: 20px;
         background-position: center center;
         background-size: auto;
